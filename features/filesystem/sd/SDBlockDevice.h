@@ -162,7 +162,7 @@ private:
     unsigned _block_size;
     bool _is_initialized;
     bool _dbg;
-    mutable Mutex _lock;
+    mutable  PlatformMutex	 _lock;
 };
 
 

@@ -138,6 +138,12 @@
              "SPI_MISO": "P8_6",
              "SPI_CLK":  "P8_3",
              "SPI_CS":   "P8_4"
+        },
+		 "XDOT_L151CC": {
+             "SPI_MOSI": "SPI_MOSI",
+             "SPI_MISO": "SPI_MISO",
+             "SPI_CLK":  "SPI_SCK",
+             "SPI_CS":   "SPI_NSS"
         }
     }
 }
